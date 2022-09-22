@@ -55,3 +55,11 @@ for i in s:
     
 print(count)
 '''
+
+#단어 공부
+n = str(input())
+
+n.upper()
+
+N = list(set(n))
+
