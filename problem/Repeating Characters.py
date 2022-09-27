@@ -5,3 +5,4 @@ for _ in range(n):
     for j in s:
         print(j*int(num), end = '')
     print()
+    

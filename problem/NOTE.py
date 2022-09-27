@@ -9,3 +9,4 @@ elif li == d:
     print("descending")
 else:
     print("mixed")
+    
