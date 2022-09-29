@@ -10,4 +10,4 @@ for i in s:
         tmp.append(i.upper())
         
 for j in tmp:
-    print(j, end= '')
+    print(j, end= '') 
