@@ -6,10 +6,13 @@ price = []
 
 for _ in range(n):
     a = int(input())
-    price.append(a)
+    if a == 0:
+        price.pop()
+    else:
+        price.append(a)
     
+sum = 0
 for i in price:
-    if price[i+1] == 0:
-        price[i-1] = 0
+    sum += i
     
-print(price)
+print(sum)
