@@ -1,5 +1,6 @@
 #주사위 세 개
 
+'''
 a,b,c = map(int, input().split())
 
 if a == b and a == c and b == c: #3개가 같을때
@@ -19,3 +20,19 @@ else:
     elif max < c:
         max = c
     print(max * 100)
+'''
+
+a, b, c = map(int, input().split())
+
+if a == c and a == b and b == c:
+    print(10000 + a * 1000)
+elif a == b and a != c:
+    print(1000 + a * 100)
+elif a == c and a != b:
+    print(1000 + a * 100)
+elif c == b and a != c:
+    print(1000 + c * 100)
+else:
+    l = [a,b,c]
+    l.sort()
+    print(l[2] * 100)
