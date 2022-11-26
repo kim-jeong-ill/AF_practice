@@ -8,6 +8,7 @@ def counter():
     return count
 '''
 
+'''
 x = input()
 x.split(' ')
 sen = x[0]
@@ -15,3 +16,10 @@ num = int(x[1])
 
 print(sen)
 print(num)
+'''
+
+a = input().split()
+
+a[1] = int(a[1])
+
+print(a)
