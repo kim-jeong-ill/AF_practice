@@ -3,11 +3,10 @@
 n = int(input())
 
 i = 0
-while i <= n:
-    j = n
-    while j > 0:
-        print(' ' * i, end = '')
-        print('*' * ((j*2)-1), end = '')
-        j -= 1
+j = n
+while i < n:
+    print(' ' * i, end = '')
+    print('*' * ((j*2) - 1), end = '')
     print()
     i += 1
+    j -= 1
