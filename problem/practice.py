@@ -18,8 +18,6 @@ print(sen)
 print(num)
 '''
 
-a = input().split()
+score = map(int, input().split())
 
-a[1] = int(a[1])
-
-print(a)
+print(score)
