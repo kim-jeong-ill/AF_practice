@@ -17,7 +17,14 @@ num = int(x[1])
 print(sen)
 print(num)
 '''
-
+'''
 score = map(int, input().split())
 
 print(score)
+'''
+
+n = int(input())
+n = list(str(n))
+n.reverse()
+n = ''.join(n)
+print(n)
