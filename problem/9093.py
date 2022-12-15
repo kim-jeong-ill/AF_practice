@@ -8,4 +8,3 @@ for _ in range(T):
         word = i
         r_word = word[::-1]
         print(r_word, end =' ')
-            
