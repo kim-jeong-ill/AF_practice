@@ -23,8 +23,23 @@ score = map(int, input().split())
 print(score)
 '''
 
+'''
 n = int(input())
 n = list(str(n))
 n.reverse()
 n = ''.join(n)
 print(n)
+'''
+
+n = int(input())
+l = []
+
+while 1:
+    share = n // 2
+    rest = n % 2
+    l. append(rest)
+    if share == 0:
+        break
+    n = share
+
+print(l)
