@@ -31,6 +31,8 @@ n = ''.join(n)
 print(n)
 '''
 
+
+'''
 n = int(input())
 l = []
 
@@ -43,3 +45,9 @@ while 1:
     n = share
 
 print(l)
+'''
+
+
+q = input().split()
+q = list(map(int, q))
+print(q)
