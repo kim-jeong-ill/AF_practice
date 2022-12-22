@@ -48,6 +48,6 @@ print(l)
 '''
 
 
-q = input().split()
-q = list(map(int, q))
-print(q)
+x = input().split()
+x = int(''.join(x)) # 2 0 0
+print(x)
