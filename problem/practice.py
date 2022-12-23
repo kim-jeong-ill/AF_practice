@@ -48,6 +48,7 @@ print(l)
 '''
 
 
-x = input().split()
-x = int(''.join(x)) # 2 0 0
-print(x)
+l = [5,4,4,3,2,1]
+
+l.sort()
+print(l)
