@@ -46,4 +46,3 @@ def fibo(num):
 for _ in range(T):
     x = int(input())
     fibo(x)
-    
