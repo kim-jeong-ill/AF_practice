@@ -47,8 +47,14 @@ while 1:
 print(l)
 '''
 
-
+'''
 l = [5,4,4,3,2,1]
 
 l.sort()
 print(l)
+'''
+
+a = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+a = list(a)
+
+print(int(a.index('A')))
