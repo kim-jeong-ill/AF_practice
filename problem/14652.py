@@ -15,3 +15,16 @@ if result <= 28:
     print(0)
 else:
     print(result - 28)
+    
+#파티가 끝나고 난 뒤  - 2845
+
+l, p = map(int, input().split())
+
+test = input().split()
+
+test = list(map(int, test))
+
+f = l * p
+
+for i in test:
+    print(i - f, end = ' ')
