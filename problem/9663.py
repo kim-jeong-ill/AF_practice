@@ -1,5 +1,9 @@
 #n-queen
 #다시 풀자;;
+#pypy3로 제출
+
+import sys
+input = sys.stdin.readline
 
 n = int(input())
 count = 0
