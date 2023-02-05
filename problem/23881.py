@@ -37,10 +37,10 @@ def selection(arr):
     global cnt, ans
     
     for i in range(n-1, 0, -1): # i = 4321로 줄어듬
-        last, idx = arr[0], 0 # 우선 첫번째 값으로 초기화, 예제1 : 3, 0
-        for j in range(1, i+1): # 하나씩 정렬 last값이 정렬 되니까 그 전 꺼까지 j(즉 i+1까지)로 조절 예제1: list 2, 5까지
-            if arr[j] > last: #이러면 계속 교환하는거 아닌가??
-                last, idx = arr[j], j
+        last, idx = arr[0], 0 # 우선 첫번째 값으로 초기화, 예제1 : 3, 0 (초기화니까 신경쓰지말아봐;)
+        for j in range(1, i+1): # 하나씩 정렬 last값이 정렬 되니까 그 전 꺼까지 j(즉 i까지)로 조절 예제1: list 1234까지
+            if arr[j] > last:
+                last, idx = arr[j], j # 5, 3
                 
         if arr[i] != arr[idx]:
             arr[i], arr[idx] = arr[idx], arr[i]
