@@ -3,4 +3,4 @@
 n = int(input())
 
 print(n*n)
-print(2)
+print(2) #시간 복잡도 쓰라는거 같음

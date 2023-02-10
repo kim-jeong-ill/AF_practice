@@ -54,7 +54,14 @@ l.sort()
 print(l)
 '''
 
+'''
 a = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 a = list(a)
 
 print(int(a.index('A')))
+'''
+
+n = [5,4,4,3,2,1]
+
+for i in range(5,1,-1):
+    print(n[:i])
