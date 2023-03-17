@@ -1,5 +1,5 @@
 #괄호
-#개수로 하는거 안되네 ㅋㅋ;
+#
 
 T = int(input())
 
@@ -14,6 +14,19 @@ for _ in range(T):
         else:
             count2 += 1
     if count1 == count2:
-        print('YES')
+        cnt = 0
+        for j in range(len(x)):
+            if x[j] == ')':
+                cnt -= 1
+            if x[j] == '(':
+                cnt += 1
+            if cnt < 0:
+                break
+            
+        if cnt >= 0:
+            print('YES')
+        else:
+            print('NO')
+        
     else:
         print('NO')
