@@ -2,6 +2,4 @@
 
 a,b,c = map(int, input().split())
 
-result = a*(b/c)
-
-print(int(result))
+print(a * max(b, c) // min(b, c))
