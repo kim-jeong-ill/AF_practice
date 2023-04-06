@@ -8,8 +8,12 @@ for _ in range(n):
     s = input()
     if s == 'D':
         a += 1
-    else:
+    elif s == 'P':
         b += 1
         
+    if a == b-2 or b == a-2:
+        ans1 = a
+        ans2 = b
+    
 
-print('{}:{}'.format(a,b))
+print('{}:{}'.format(ans1,ans2))
