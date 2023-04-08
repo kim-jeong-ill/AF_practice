@@ -3,8 +3,10 @@
 T = int(input())
 
 for _ in range(T):
-    H,W,N = map(int, input().split()) #H:호텔 층 W: 호텔 방 N: 몇번째 손님
-    share = H // N # 몫
-    rest = H % N # 나머지
-    print(rest, end = '') # 층
-    print(share)
+    h,w,n = map(int, input().split()) #h:호텔 층 w: 호텔 방 n: 몇번째 손님
+    floor = n%h
+    num = n//h+1
+    if n % h == 0:
+        floor = h
+        num -= 1
+    print(floor*100+num)
