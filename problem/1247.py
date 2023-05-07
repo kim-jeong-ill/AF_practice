@@ -1,5 +1,7 @@
 #부호
 
+import sys
+input = sys.stdin.readline
 
 for _ in range(3):
     n = int(input())
