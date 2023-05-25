@@ -1,9 +1,7 @@
 #A Simple Problem
+
 import sys
-input = sys.stdin.readline
 n = int(input())
-
-
 for _ in range(n):
-    m = int(input())
+    m = int(sys.stdin.readline())
     print(m)
